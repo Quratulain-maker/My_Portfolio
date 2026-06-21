@@ -1,0 +1,42 @@
+[
+  {
+    "model_name": "mobilenetv3_small",
+    "best_val_acc": 100.0,
+    "best_epoch": 16,
+    "params": 1526056,
+    "size_mb": 6.152944,
+    "inference_ms": 15.853698999853803,
+    "training_time_min": 44.58592039346695,
+    "overall_score": 0.7459086006771274
+  },
+  {
+    "model_name": "mobilenetv3_large",
+    "best_val_acc": 100.0,
+    "best_epoch": 15,
+    "params": 4212280,
+    "size_mb": 16.947088,
+    "inference_ms": 12.655336000025272,
+    "training_time_min": 44.00865542491277,
+    "overall_score": 0.6757240017364321
+  },
+  {
+    "model_name": "mobilevit_s",
+    "best_val_acc": 100.0,
+    "best_epoch": 14,
+    "params": 4942760,
+    "size_mb": 19.82032,
+    "inference_ms": 21.381550999940373,
+    "training_time_min": 52.78145728905996,
+    "overall_score": 0.5410480101525865
+  },
+  {
+    "model_name": "efficientnet_b0",
+    "best_val_acc": 100.0,
+    "best_epoch": 6,
+    "params": 4017796,
+    "size_mb": 16.23964,
+    "inference_ms": 24.770867000333965,
+    "training_time_min": 46.50528902610143,
+    "overall_score": 0.5361314045383727
+  }
+]

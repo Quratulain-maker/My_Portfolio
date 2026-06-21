@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "556005834698",
+    "project_id": "angroeye",
+    "storage_bucket": "angroeye.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556005834698:android:298d2a6731201de8295933",
+        "android_client_info": {
+          "package_name": "com.example.agro_eye"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbPOUtZn4wLrFkLrNszi78v2XCXWpUi4A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

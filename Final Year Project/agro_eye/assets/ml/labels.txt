@@ -1,0 +1,8 @@
+Apple Scab
+Apple Black Rot
+Apple Cedar Rust
+Apple Healthy
+Grape Black Rot
+Grape Esca
+Grape Leaf Blight
+Grape Healthy
