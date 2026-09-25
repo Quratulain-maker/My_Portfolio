@@ -1,0 +1,27 @@
+F:\Work\Abasyn Project\agro_eye\train_leaf_gate_v2.py:211: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  ckpt = torch.load(CKPT_PATH, map_location="cpu")
+Device: cuda
+PlantDoc field leaves: 2922 | PlantVillage sample: 1482
+Balanced -> leaf: 4404  not_leaf: 4404
+Epoch 1/10  loss=0.2588  train_acc=93.80%  val_acc=97.20%  recall[leaf]=98.89%  recall[not_leaf]=95.66%
+  saved best (97.20%)
+Epoch 2/10  loss=0.1761  train_acc=97.44%  val_acc=96.60%  recall[leaf]=99.84%  recall[not_leaf]=93.63%
+Epoch 3/10  loss=0.1650  train_acc=97.80%  val_acc=98.34%  recall[leaf]=99.05%  recall[not_leaf]=97.68%
+  saved best (98.34%)
+Epoch 4/10  loss=0.1503  train_acc=98.49%  val_acc=98.26%  recall[leaf]=99.21%  recall[not_leaf]=97.40%
+Epoch 5/10  loss=0.1516  train_acc=98.60%  val_acc=99.17%  recall[leaf]=99.68%  recall[not_leaf]=98.70%
+  saved best (99.17%)
+Epoch 6/10  loss=0.1402  train_acc=99.06%  val_acc=99.17%  recall[leaf]=99.05%  recall[not_leaf]=99.28%
+  saved best (99.17%)
+Epoch 7/10  loss=0.1354  train_acc=99.09%  val_acc=99.39%  recall[leaf]=99.37%  recall[not_leaf]=99.42%
+  saved best (99.39%)
+Epoch 8/10  loss=0.1303  train_acc=99.37%  val_acc=99.39%  recall[leaf]=99.21%  recall[not_leaf]=99.57%
+  saved best (99.39%)
+Epoch 9/10  loss=0.1262  train_acc=99.69%  val_acc=99.55%  recall[leaf]=99.52%  recall[not_leaf]=99.57%
+  saved best (99.55%)
+Epoch 10/10  loss=0.1276  train_acc=99.49%  val_acc=99.55%  recall[leaf]=99.52%  recall[not_leaf]=99.57%
+  saved best (99.55%)
+
+Best val acc: 99.55%
+ONNX exported: F:\Work\Abasyn Project\agro_eye\output_leaf\best_leaf_gate.onnx
+Done. Next: run convert_leaf_gate.py in the py311_ml env.
